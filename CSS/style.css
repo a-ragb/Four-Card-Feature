@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins;
+    font-size: 15px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .text{
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.container .text .h1_1{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600px;
+    font-weight: normal;
+    margin: 40px 0 0 0;
+}
+.container .text .h1_2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.container .text .p1{
+    color:hsl(229, 6%, 66%);
+    font-weight: 200px;
+    margin: 10px auto 0;
+    line-height: 1.6;
+}
+.container .four_cards{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.container .four_cards .cards{
+    position: relative;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container .four_cards .cards h2{
+    color: hsl(234, 12%, 34%);
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.container .four_cards .cards p {
+    font-size: 12px;
+    margin: 10px 14px 0 20px;
+}
+.container .four_cards .cards img {
+    padding: 20px;
+    margin-top: 20px;
+}
+.container .four_cards .cards .image {
+    display: flex;
+    justify-content: flex-end;
+}
+.container .four_cards .card1 {
+    width: 350px;
+    height: 200px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.container .four_cards .center {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    height: 400px;
+}
+.container .four_cards .center .card2 {
+    flex: 1;
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.container .four_cards .center .card3 {
+    flex: 1;
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.container .four_cards .card4 {
+    flex: 1;
+    width: 350px;
+    height: 200px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    margin-top: 200px;
+}
+
